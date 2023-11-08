@@ -1,0 +1,19 @@
+{
+            "product":[
+                {
+                    "id" : 1,
+                    "title":"produksi 1",
+                    "price":500
+                },
+                {
+                    "id" : 2,
+                    "title":"produksi 1",
+                    "price":300
+                },
+                {
+                    "id" : 3,
+                    "title":"produksi 1",
+                    "price":600
+                }
+            ]
+}

@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    background-color: #000;
+    color:#fff;
+    align-items: center;
+    padding:20px 111px 19px;
+   justify-content: space-between;
+  };
+  
+ .button{
+  background-color:#fff;
+  color:#000;
+ }
+ 

@@ -1,0 +1,162 @@
+
+
+  .kotakbesar1{
+    position:absolute;
+    content:'';
+    right:8rem;
+    left:8rem;
+    bottom:8rem;
+    top:8rem;
+    background: #000;
+    border-radius: 90px;
+    z-index:-1;
+    transition: 0.3s ease;
+  };
+  
+  .title1{
+    position:absolute;
+    color:#f1eeee;
+    content:'';
+    text-decoration: underline 0.15em rgb(241, 4, 210);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 300ms, text-underline-offset 300ms;
+    animation: bounce 2s infinite;
+    position:absolute;
+    content:'';
+    right:8rem;
+    left:8rem;
+    
+    top:0rem;
+    background: transparent;
+    border-radius: 90px;
+   
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+          transform: translateY(0);
+      }
+      5% {
+          transform: translateY(-30px);
+      }
+      60% {
+          transform: translateY(-5px);
+      }
+}};
+.title1:hover{
+    text-decoration-color: rgba(0, 0, 255, 1);
+  text-underline-offset: 0.2em;
+};
+
+
+.lingkaran1{
+  display: inline-block;
+  transform: rotate(90deg);
+  border: 10px solid rgb(244, 9, 252);
+  width: 150px;
+  height: 150px;
+  top:1px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  display: flex;
+  position: absolute;
+}
+.lingkaran1:hover{
+	width: 130px;
+	height: 130px;
+	background: #f702eb;
+  border: 10px none;
+  border-radius: 90px;
+    animation: translate 4s ease-in;
+    @keyframes translate { 
+    
+    25% { transform:  translate(0px, 200px); 
+    }
+    50% { transform: translate(200px,200px)
+    }
+    75% { transform: translate(200px,0px)
+    }
+    
+  };
+}
+.lingkaran2{
+	display: inline-block;
+  transform: rotate(180deg);
+  border: 10px solid rgb(244, 9, 252);
+  width: 150px;
+  height: 150px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  right:1px;
+  top:1px;
+  display: flex;
+  position: absolute;
+}
+.lingkaran2:hover{
+	width: 130px;
+	height: 130px;
+	background: #f702eb;
+  border-radius: 90px;
+  border: 10px  none;
+    animation: translate 3s ease-in;
+    @keyframes translate { 
+    
+    25% { transform:  translate(120px, 0px); 
+    }
+    40% { transform: translate(120px,120px,)
+    }
+    65% { transform: translate(0px,120px)
+    }
+    
+  };
+}
+
+.tombol1{
+  background:rgb(252, 7, 190); 
+  width: 120px;
+  height: 45px;
+  border-radius: 35px;
+  right: 10rem;
+  bottom:190px;
+  
+  position:fixed;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  font-size: 25px;
+};
+.tombol1:hover{
+ background-color: #5b09f3 
+ 
+};
+.tombol2{
+    background:rgb(252, 7, 190); 
+    width: 120px;
+    height: 45px;
+    border-radius: 35px;
+    left: 10rem;
+    bottom:190px;
+    
+    position:fixed;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    font-size: 25px;
+  };
+  .tombol2:hover{
+   background-color: #5b09f3 
+  };  
+.paragraf{
+    height: 100px;
+    width: 100px;
+  top:15rem;
+  left:8rem;
+  color:#fff;
+  text-align: center;
+  display: flex;
+  position: absolute;
+}

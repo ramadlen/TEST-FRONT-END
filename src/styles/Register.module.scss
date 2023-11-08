@@ -1,0 +1,47 @@
+.register{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 60px;
+    transform: translate(-50%, -50%);
+    background: black;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(48, 8, 226, 0.6);
+    border-radius: 60px;
+}
+.pregister{
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(246, 245, 248);
+    text-align: left;
+}
+.kotakregister {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    
+}
+.judulregister{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    top: 100px;
+}
+.buttonregister{
+    justify-items: center;
+}
+.tombolregister{
+    color: rgb(252, 2, 210);
+}
+.error1{
+    font-size: 2px;
+    text-justify: center;
+    color: #fff;
+}
